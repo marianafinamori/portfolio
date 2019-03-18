@@ -7,14 +7,13 @@
     background-color: #ffffff;
 }
 
-h1 {
+h1,
+ul,
+h3 {
     font-family: "Playfair Display";
     color: #424242;
 }
 
-ul {
-    font-family: "Playfair Display";
-}
 
 a {
     color: #424242;
@@ -28,9 +27,8 @@ a {
     color: #e8e8e8;
     font-size: 12em;
     left: 20%;
-    top: 28%;
+    top: 20%;
     z-index: -1;
-    
 
 }
 
@@ -38,26 +36,26 @@ a {
     position: absolute;
     font-family: "Playfair Display";
     color: #e8e8e8;
-    font-size: 8em;
+    font-size: 9em;
     left: 20%;
-    top: 60%;
+    top: 65%;
     z-index: -1;
 }
 
 #bio {
     position: absolute;
     z-index: 0;
-    top: 40%;
+    top: 35%;
     left: 20%;
     width: 70%;
     font-family: 'Montserrat';
 }
 
-#contact {
+#contactContainer {
     position: absolute;
     z-index: 0;
-    top: 70%;
-    left: 30%;
+    top: 75%;
+    left: 28%;
     width: 70%;
     font-family: 'Montserrat';
 }
@@ -87,11 +85,11 @@ img {
     position: absolute;
     z-index: 3;
     font-family: "Playfair Display";
-    font-size: 40px;
+    font-size: 60px;
     top: 30%;
     left: 15%;
-    letter-spacing: .1em;
-    max-width: 350px;
+    /* letter-spacing: .1em; */
+    max-width: 100%;
     
 }
 
@@ -119,6 +117,80 @@ span {
     height: 30px;
     width: 30px;
 }
+
+.githubmain {
+    height: 40px;
+    width: 40px;
+}
+
+.githubinfo {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+}
+
+#mariana,
+#finamori {
+    position: absolute;
+    font-family: "Playfair Display";
+    font-size: 180px;
+    padding-left: 30px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    line-height: 180px;
+    color: #424242;
+    opacity: 0.8;
+}
+
+#mariana {
+    top: 18%;
+    left: 4%;
+}
+
+#finamori {
+    top: 47%;
+    left: 25%;
+}
+
+#letterM,
+#letterF {
+    display: inline-block;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 380px;
+    color: white;
+    opacity: 0.8;
+}
+
+#letterF {
+    opacity: 0.8;
+}
+
+
+#nameh1 {
+    opacity: 0;
+}
+
+#trivia {
+    color: black;
+    max-width: 100%;
+    left: 8%
+}
+
+#seer {
+    color: black;
+}
+
+#bootstrap {
+    left: 10%
+}
+
+.mainContainer {
+    margin-bottom: 40px;
+}
+
+
+
 
 
 
