@@ -211,6 +211,15 @@ span {
     top: 40%;
 }
 
+#node-word,
+#node-express {
+    color: rgb(251, 220, 0);
+}
+
+#and-ex {
+    color: rgb(251, 220, 0);
+}
+
 
 
 
