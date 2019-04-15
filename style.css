@@ -212,12 +212,20 @@ span {
 }
 
 #node-word,
-#node-express {
+#express-word {
     color: rgb(251, 220, 0);
 }
 
-#and-ex {
-    color: rgb(251, 220, 0);
+#node-word {
+    /* position: relative; */
+    top: 12%;
+    left: 26%;
+}
+
+#express-word {
+    /* position: relative; */
+    top: 60%;
+    left: 15%;
 }
 
 
