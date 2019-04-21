@@ -217,15 +217,29 @@ span {
 }
 
 #node-word {
-    /* position: relative; */
     top: 12%;
     left: 26%;
 }
 
 #express-word {
-    /* position: relative; */
     top: 60%;
     left: 15%;
+}
+
+#nodeex {
+    top: 12%;
+    left: 1%;
+    color: #424242;
+}
+
+#handlebars {
+    top: 60%;
+    left: 1%;
+}
+
+#nodeex-span,
+#handlebars-span {
+    color:  #e6f2ff;
 }
 
 
