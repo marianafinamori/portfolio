@@ -1,10 +1,9 @@
 #bodyMain {
     background-color: rgb(233, 233, 241);
-    font-family
 }
 
 #bodyPortfolio {
-    background-color:#ffffff;
+    background-color: #ffffff;
 }
 
 h1,
@@ -15,6 +14,12 @@ h3 {
 }
 
 a {
+    color: #424242;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
     color: #424242;
     text-decoration: none;
     font-size: 20px;
@@ -35,10 +40,11 @@ a {
 #bio {
     position: absolute;
     z-index: 0;
-    top: 30%;
+    top: 35%;
     right: auto;
     left: auto;
     font-family: "Montserrat";
+    width: 70%;
 }
 
 #contact-background {
@@ -138,12 +144,20 @@ img {
     
 }
 
-a :hover {
+.link:hover {
+    opacity: .7;
+}
+
+.github:hover,
+#linkedin:hover {
     color: black;
     opacity: .7;
-   
-
 }
+
+.work:hover {
+    opacity: .7;
+}
+   
 
 span {
     color: white;
@@ -214,13 +228,6 @@ span {
 
 #nameh1 {
     opacity: 0;
-}
-
-.pack {
-    /* display: flex;
-    flex-wrap:wrap;
-    flex-direction: column;
-    justify-content: center; */
 }
 
 .line1, 
@@ -351,9 +358,29 @@ span {
     color:  #e6f2ff;
 }
 
+.class3 {
+    color: #424242;
+}
+
 .mern {
     left: 25%;
 }
+
+/* .containerlogos {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border: 1px solid green;
+    height: 80px;
+}
+
+#linkedin, 
+.github {
+    display: inline;
+    border: 1px solid red;
+}
+ */
+
 
 
 
